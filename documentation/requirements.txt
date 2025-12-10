@@ -1,0 +1,12 @@
+torch==2.9.0
+braindecode==1.2.0
+mne==1.10.2
+moabb==1.4.2
+scikit-learn==1.7.2
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.16.2
+matplotlib==3.10.7
+seaborn==0.13.2
+tqdm==4.67.1
+pyyaml==6.0.3
