@@ -1,0 +1,6 @@
+HARDWARE SETUP
+================
+Chip: Apple M1
+Accelerator: MPS (Metal Performance Shaders)
+Framework: PyTorch (via uv)
+OS: macOS
