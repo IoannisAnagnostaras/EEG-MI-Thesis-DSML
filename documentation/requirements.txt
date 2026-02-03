@@ -1,4 +1,7 @@
+braindecode==1.2.0
 matplotlib==3.10.7
+mne==1.10.2
+moabb==1.4.2
 numpy==2.3.4
 pandas==2.3.3
 pyyaml==6.0.3
