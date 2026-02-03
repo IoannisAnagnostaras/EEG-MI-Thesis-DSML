@@ -3,7 +3,6 @@ aiohttp==3.13.1
 aiosignal==1.4.0
 antio==0.6.1
 anyio==4.11.0
-appnope==0.1.4
 argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
 arrow==1.4.0
@@ -146,8 +145,6 @@ pybv==0.7.6
 pycparser==2.23
 pygments==2.19.2
 pymatreader==1.1.0
-pyobjc-core==12.0
-pyobjc-framework-cocoa==12.0
 pyopengl==3.1.10
 pyparsing==3.2.5
 pyqt6==6.10.0
