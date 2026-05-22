@@ -1,0 +1,73 @@
+{
+  "subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "mean_accuracy": 0.5366512345679013,
+  "std_accuracy": 0.12162266039315857,
+  "mean_kappa": 0.382201646090535,
+  "std_kappa": 0.16216354719087814,
+  "per_subject": [
+    {
+      "held_out_subject": 1,
+      "accuracy": 0.6631944444444444,
+      "kappa": 0.5509259259259259,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_plus_stieger_s1_li_aug\\checkpoints\\simclr_finetuned\\subject_1.pt"
+    },
+    {
+      "held_out_subject": 2,
+      "accuracy": 0.3923611111111111,
+      "kappa": 0.18981481481481477,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_plus_stieger_s1_li_aug\\checkpoints\\simclr_finetuned\\subject_2.pt"
+    },
+    {
+      "held_out_subject": 3,
+      "accuracy": 0.6597222222222222,
+      "kappa": 0.5462962962962963,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_plus_stieger_s1_li_aug\\checkpoints\\simclr_finetuned\\subject_3.pt"
+    },
+    {
+      "held_out_subject": 4,
+      "accuracy": 0.4027777777777778,
+      "kappa": 0.20370370370370372,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_plus_stieger_s1_li_aug\\checkpoints\\simclr_finetuned\\subject_4.pt"
+    },
+    {
+      "held_out_subject": 5,
+      "accuracy": 0.4201388888888889,
+      "kappa": 0.22685185185185186,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_plus_stieger_s1_li_aug\\checkpoints\\simclr_finetuned\\subject_5.pt"
+    },
+    {
+      "held_out_subject": 6,
+      "accuracy": 0.4513888888888889,
+      "kappa": 0.2685185185185185,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_plus_stieger_s1_li_aug\\checkpoints\\simclr_finetuned\\subject_6.pt"
+    },
+    {
+      "held_out_subject": 7,
+      "accuracy": 0.4861111111111111,
+      "kappa": 0.31481481481481477,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_plus_stieger_s1_li_aug\\checkpoints\\simclr_finetuned\\subject_7.pt"
+    },
+    {
+      "held_out_subject": 8,
+      "accuracy": 0.6631944444444444,
+      "kappa": 0.5509259259259259,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_plus_stieger_s1_li_aug\\checkpoints\\simclr_finetuned\\subject_8.pt"
+    },
+    {
+      "held_out_subject": 9,
+      "accuracy": 0.6909722222222222,
+      "kappa": 0.587962962962963,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_plus_stieger_s1_li_aug\\checkpoints\\simclr_finetuned\\subject_9.pt"
+    }
+  ]
+}
