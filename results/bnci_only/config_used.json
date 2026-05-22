@@ -1,0 +1,76 @@
+{
+  "benchmark_policy": {
+    "name": "li_bciiv2a_train_session_loso"
+  },
+  "split": {
+    "source_session": "0train",
+    "target_session": "0train"
+  },
+  "target_dataset": {
+    "name": "BNCI2014_001",
+    "subjects": null
+  },
+  "source_datasets": [
+    "BNCI2014_001"
+  ],
+  "source_dataset_labels": {
+    "BNCI2014_001": [
+      "left_hand",
+      "right_hand",
+      "feet",
+      "tongue"
+    ]
+  },
+  "preprocessing": {
+    "target_labels": [
+      "left_hand",
+      "right_hand",
+      "feet",
+      "tongue"
+    ],
+    "target_tmin": 0.0,
+    "target_tmax": 4.0,
+    "source_tmin": 0.0,
+    "source_tmax": 4.0,
+    "fmin": 3.0,
+    "fmax": 40.0,
+    "resample": 250,
+    "source_label_mode": "dataset_specific",
+    "standardize": "none",
+    "apply_euclidean_alignment": true,
+    "max_source_trials": null
+  },
+  "model": {
+    "name": "shallow_convnet",
+    "dropout": 0.5,
+    "n_filters": 40,
+    "temporal_kernel": 25,
+    "pool_kernel": 75,
+    "pool_stride": 15
+  },
+  "training": {
+    "batch_size": 32,
+    "ssl_batch_size": 128,
+    "supervised_batch_size": 64,
+    "finetune_batch_size": 32,
+    "supervised_epochs": 300,
+    "ssl_epochs": 100,
+    "finetune_epochs": 300,
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "temperature": 0.5,
+    "augmentation_mode": "li_paper_mix",
+    "vicreg_sim_coeff": 25.0,
+    "vicreg_var_coeff": 25.0,
+    "vicreg_cov_coeff": 1.0,
+    "mask_ratio": 0.35,
+    "seed": 42,
+    "num_workers": 0,
+    "validation_fraction": 0.2,
+    "model_selection": "final",
+    "device": "cuda"
+  },
+  "run_root": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug"
+}

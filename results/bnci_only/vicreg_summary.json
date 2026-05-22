@@ -1,0 +1,73 @@
+{
+  "subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "mean_accuracy": 0.5127314814814815,
+  "std_accuracy": 0.09924051439919454,
+  "mean_kappa": 0.35030864197530864,
+  "std_kappa": 0.1323206858655927,
+  "per_subject": [
+    {
+      "held_out_subject": 1,
+      "accuracy": 0.6597222222222222,
+      "kappa": 0.5462962962962963,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug\\checkpoints\\vicreg_finetuned\\subject_1.pt"
+    },
+    {
+      "held_out_subject": 2,
+      "accuracy": 0.4131944444444444,
+      "kappa": 0.21759259259259256,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug\\checkpoints\\vicreg_finetuned\\subject_2.pt"
+    },
+    {
+      "held_out_subject": 3,
+      "accuracy": 0.6423611111111112,
+      "kappa": 0.5231481481481481,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug\\checkpoints\\vicreg_finetuned\\subject_3.pt"
+    },
+    {
+      "held_out_subject": 4,
+      "accuracy": 0.4340277777777778,
+      "kappa": 0.24537037037037035,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug\\checkpoints\\vicreg_finetuned\\subject_4.pt"
+    },
+    {
+      "held_out_subject": 5,
+      "accuracy": 0.4305555555555556,
+      "kappa": 0.2407407407407407,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug\\checkpoints\\vicreg_finetuned\\subject_5.pt"
+    },
+    {
+      "held_out_subject": 6,
+      "accuracy": 0.4756944444444444,
+      "kappa": 0.30092592592592593,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug\\checkpoints\\vicreg_finetuned\\subject_6.pt"
+    },
+    {
+      "held_out_subject": 7,
+      "accuracy": 0.3923611111111111,
+      "kappa": 0.18981481481481477,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug\\checkpoints\\vicreg_finetuned\\subject_7.pt"
+    },
+    {
+      "held_out_subject": 8,
+      "accuracy": 0.5555555555555556,
+      "kappa": 0.40740740740740744,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug\\checkpoints\\vicreg_finetuned\\subject_8.pt"
+    },
+    {
+      "held_out_subject": 9,
+      "accuracy": 0.6111111111111112,
+      "kappa": 0.4814814814814815,
+      "checkpoint": "outputs\\repro_ssl_from_best_20260404T220815Z\\ssl_bnci_only_li_aug\\checkpoints\\vicreg_finetuned\\subject_9.pt"
+    }
+  ]
+}
