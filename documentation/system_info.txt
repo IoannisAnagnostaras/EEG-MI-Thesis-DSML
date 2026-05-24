@@ -1,6 +1,9 @@
-HARDWARE SETUP
-================
-Chip: Apple M1
-Accelerator: MPS (Metal Performance Shaders)
-Framework: PyTorch (via uv)
-OS: macOS
+HARDWARE & SYSTEM SETUP
+================================================
+OS: Windows 11 Education 64-bit
+CPU: AMD Ryzen 9 7900X (12 physical cores, 24 threads)
+RAM: 64 GB
+GPU: NVIDIA GeForce RTX 5090 (32 GB VRAM)
+GPU Driver: 591.86
+CUDA Version: 13.1
+Environment: uv-managed virtual environment
